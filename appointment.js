@@ -2,7 +2,36 @@ window.addEventListener('load', () => {
     
   autocomplete(document.getElementById("reason-input"), treatments);
 
+  let verify_btn = document.getElementById('verify-btn');
+  verify_btn.addEventListener('click', ()=>{
+    
+    let response = verify();
+    alert(JSON.stringify(response));
+
+  });
+
 });
+
+let verify = async () => {
+
+  const phoneNum = "3368807246";
+  const keyNum = "5424B79B28044EFDB08531E0258DF645";
+
+  const response = await $.ajax({
+    url: 'https://api.veriphone.io/v1/verify',
+    type: 'POST',
+    data: {
+      phone: phoneNum,
+      key: keyNum,
+    },
+    dataType: 'json',
+    crossDomain: !0
+  }); 
+
+  return response;
+
+}
+
 
 const treatments = [
     'x-rays', 'cleaning', 'complete exam',
