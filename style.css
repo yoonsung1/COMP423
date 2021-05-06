@@ -275,6 +275,7 @@ html {
     width: 100%;
     object-fit: cover;
     opacity: 0.8;
+    border-radius: 50%;
 }
 
 .contact {
@@ -715,8 +716,14 @@ html {
         right: 38rem;
     }
 
-    .service {
+    .about-us-img-wrapper {
         width: 30rem;
+    }
+
+    #map {
+        margin-top: 5rem;
+        height: 35rem;
+        width: 35rem;
     }
 }
 
