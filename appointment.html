@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Paytone+One&family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="appointment.js"></script>
+
+</head>
+<body>
+    <div class="container">
+
+        <section class="appointment" id="appointment-sec">
+            <div class="appointment-wrapper">
+                <div class="appointment-left"></div>
+                <div class="appointment-right">
+                    <h1 class="appointment-heading">Appointment</h1>
+                    <form autocomplete="off" action='/index.html'>
+                        <div class="input-group">
+                            <input type="text" class="field">
+                            <label class="input-label">Full Name</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" class="field">
+                            <label class="input-label">Email</label>
+                        </div>
+                        <div class="input-group">
+                            <input class="veriphone" data-key="5424B79B28044EFDB08531E0258DF645"/>
+                            <label class="input-label">Phone Number</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="reason" id='reason-input' class="field" placeholder="Ex) molar pain">
+                            <label class="input-label">Reason</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="date" class="field">
+                            <label class="input-label">Date</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="time" class="field">
+                            <label class="input-label">Time</label>
+                        </div>
+                        <div class="input-group">
+                            <textarea class="field"></textarea>
+                            <label class="message">Message</label>
+                        </div>
+                        
+                        <input type="submit" class="submit-btn" value="Submit" >
+                        <input type="submit" class="cancel-btn" value="Cancel" >
+                    </form>
+                </div>
+            </div>
+        </section>   
+
+    </div>
+   
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/veriphone/js@1.0/veriphone.min.js"></script>
+
+    
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "name": "final_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "appointment.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "browser-sync": "^2.26.14",
+    "jQuery": "^1.7.4",
+    "mailgun.js": "^3.3.0",
+    "nodejs": "0.0.0"
+  }
+}
