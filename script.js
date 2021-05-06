@@ -1,7 +1,7 @@
 window.addEventListener('load', () => {
     
     toggleMenu();
-
+    alert('hll');
  
 
 })
