@@ -383,6 +383,7 @@ html {
 }
 
 .veriphone{
+    left: 0;
     width: 45rem;
     background-color: transparent;
     border: none;
@@ -518,6 +519,10 @@ html {
         width: 70%;
         height: 65rem;
     }
+
+    .appointment-wrapper {
+        width: 70%;
+    }
 }
 
 @media(max-width: 1400px) {
@@ -571,7 +576,19 @@ html {
         margin-bottom: 2rem;
     }
 
+    .appointment-wrapper {
+        width: 90%;
+    }
+
+    .appointment-heading {
+        margin-bottom: 2rem;
+    }
+
     .field {
+        margin: 2rem 0;
+    }
+
+    .veriphone {
         margin: 2rem 0;
     }
 }
@@ -618,8 +635,20 @@ html {
     .contact-right {
         width: 100%;
     }
+
+    .appointment-left {
+        width: 0;
+    }
     
+    .appointment-right {
+        width: 100%;
+    }
+
     .field {
+        width: 55rem;
+    }
+
+    .veriphone {
         width: 55rem;
     }
     
@@ -630,6 +659,11 @@ html {
     .submit-btn {
         width: 55rem;
     }
+
+    .cancel-btn {
+        width: 55rem;
+    }
+
 }
 
 @media(max-width: 700px) {
@@ -646,11 +680,23 @@ html {
         width: 35rem;
     }
 
+    .appointment-heading {
+        font-size: 4rem;
+    }
+
+    .veriphone {
+        width: 35rem;
+    }
+
     .input-group textarea {
         max-width: 35rem;
     }
 
     .submit-btn {
+        width: 35rem;
+    }
+
+    .cancel-btn {
         width: 35rem;
     }
 }

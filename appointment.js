@@ -1,8 +1,8 @@
 window.addEventListener('load', () => {
     
   autocomplete(document.getElementById("reason-input"), treatments);
-  
-})
+
+});
 
 const treatments = [
     'x-rays', 'cleaning', 'complete exam',
@@ -105,4 +105,5 @@ autocomplete = (inp, arr) => {
   document.addEventListener("click", function (e) {
       closeAllLists(e.target);
   });
+  
 }
