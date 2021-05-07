@@ -27,6 +27,8 @@ autocomplete = (input) => {
         closeAllLists();
 
         let value = document.querySelector('#reason-input').value;
+
+        if(!value) {return false;}
         
         selection = -1;
         
