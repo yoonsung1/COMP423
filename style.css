@@ -493,6 +493,7 @@ html {
     top: 100%;
     left: 0;
     right: 0;
+    font: 2rem;
 }
 
 .autocomplete-items div {

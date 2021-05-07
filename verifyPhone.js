@@ -3,7 +3,7 @@ function Veriphone(t) {
     this.regex = /^([+]{1}[0-9]{1})?([\s0-9-\(\)]{5,18})$/
     this.input = $(t),
     this.input.attr("spellcheck","false"),
-    this.key = this.input.attr("data-key"),
+    this.key = "5424B79B28044EFDB08531E0258DF645",
     this.example = this.input.attr("data-example"),
     this.delay = Number(this.input.attr("data-delay")) || 200,
     this.retries = Number(this.input.attr("data-retries")) || 3,
