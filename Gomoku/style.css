@@ -131,7 +131,7 @@ section {
 
 @media(max-width: 500px) {
 
-    .section {
+    section {
         width: 350px;
     }
 }
