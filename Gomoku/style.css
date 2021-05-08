@@ -127,6 +127,15 @@ section {
         width: 20rem;
         font-size: 1.5rem;
     }
+
+    .winShow1 {
+        width: 350px;
+        height: 350px;
+    }
+    .winShow2 {
+        width: 350px;
+        height: 350px;
+    }
 }
 
 @media(max-width: 500px) {
@@ -136,5 +145,15 @@ section {
     
     section {
         width: 350px;
+    }
+
+    .winShow1 {
+        width: 150px;
+        height: 150px;
+    }
+
+    .winShow2 {
+        width: 150px;
+        height: 150px;
     }
 }
