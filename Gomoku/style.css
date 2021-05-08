@@ -130,11 +130,15 @@ section {
 
     .winShow1 {
         width: 350px;
+        left: 10px;
         height: 350px;
+        font-size: 30px;
     }
     .winShow2 {
         width: 350px;
         height: 350px;
+        left: 10px;
+        font-size: 30px;
     }
 }
 
@@ -150,10 +154,12 @@ section {
     .winShow1 {
         width: 150px;
         height: 150px;
+        font-size: 10px;
     }
 
     .winShow2 {
         width: 150px;
         height: 150px;
+        font-size: 10px;
     }
 }
