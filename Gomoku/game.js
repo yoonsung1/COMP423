@@ -3,11 +3,18 @@ window.addEventListener('load', () => {
     let canvas = document.getElementById('canvas');
     let context = canvas.getContext('2d');
 
-    const margin = 30,
+    let margin = 30,
         canvas_width = (canvas_height = canvas.width = canvas.height = 600 + margin * 2),
         row = 18,
         rowSize = 600 / row,
         dolSize = 13;
+
+    if (window.innerWidth < 500) {
+        margin = 15;
+        canvas_width = (canvas_height = canvas.width = canvas.height = 300 + margin * 2);
+        rowSize = 300/row;
+        dolSize = 6;
+    }
 
     let count = 0,
         message = document.querySelector('.message'),
