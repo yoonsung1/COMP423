@@ -130,7 +130,10 @@ section {
 }
 
 @media(max-width: 500px) {
-
+    .container {
+        width: 320px;
+    }
+    
     section {
         width: 350px;
     }
